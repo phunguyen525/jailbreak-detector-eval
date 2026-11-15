@@ -1,0 +1,5 @@
+Detector,AUC,Recall (%),FPR (%),AUC (original tags)
+ProtectAI,0.954,80.2,7.2,0.891
+PG2-22M,0.862,45.4,7.0,0.794
+PG2-86M,0.927,97.2,40.0,0.824
+PIGuard,0.944,92.0,14.6,0.926

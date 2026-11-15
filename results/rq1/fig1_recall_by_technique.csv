@@ -1,0 +1,13 @@
+Technique,Detector,n with,n without,Recall with,Recall without
+Refusal suppression,ProtectAI,1115,136,83.7,51.7
+Refusal suppression,PG2-22M,1115,136,48.9,16.1
+Refusal suppression,PG2-86M,1115,136,98.0,90.5
+Refusal suppression,PIGuard,1115,136,93.1,82.8
+Prefix injection,ProtectAI,777,474,83.4,77.7
+Prefix injection,PG2-22M,777,474,69.3,26.2
+Prefix injection,PG2-86M,777,474,99.7,95.2
+Prefix injection,PIGuard,777,474,97.8,87.4
+Style injection,ProtectAI,551,700,87.3,73.8
+Style injection,PG2-22M,551,700,50.1,41.1
+Style injection,PG2-86M,551,700,99.3,95.2
+Style injection,PIGuard,551,700,89.2,94.6

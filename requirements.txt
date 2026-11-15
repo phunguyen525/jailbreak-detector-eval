@@ -1,0 +1,9 @@
+# The notebooks run on Google Colab (November 2026).
+datasets
+transformers
+sentencepiece
+torch
+numpy
+pandas
+scikit-learn
+anthropic

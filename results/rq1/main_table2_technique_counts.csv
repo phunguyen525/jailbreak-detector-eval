@@ -1,0 +1,10 @@
+Technique,Jailbreaks,%
+Role-play,1213,97.0
+Refusal suppression,1115,89.1
+Style injection,551,44.0
+Prefix injection,777,62.1
+Special encoding,4,0.3
+Character transformation,28,2.2
+Word transformation,19,1.5
+Prompt-level transformation,15,1.2
+Other,15,1.2

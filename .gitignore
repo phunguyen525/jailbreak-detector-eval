@@ -1,0 +1,21 @@
+# Files that contain prompt text, translations or transformed prompts: never commit them
+prompts_clean.csv
+scores_step2.csv
+stage1_prompts.csv
+stage1_map.csv
+missed_by_all.csv
+missed_sample50.csv
+labels_*_api.csv
+techniques_opus_api.csv
+zulu_full.csv
+zulu_pilot.csv
+piguard_train.json
+*.npy
+
+# Secrets
+.env
+*.key
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/

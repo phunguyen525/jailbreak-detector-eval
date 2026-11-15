@@ -1,0 +1,29 @@
+Detector,Form,Recall (%),FPR (%),AUC,Still caught
+ProtectAI,Original,80.2,7.2,0.954,–
+ProtectAI,Base64 + wrapper,99.9,98.1,0.675,1062 / 1063
+ProtectAI,Base64,99.6,92.5,0.695,1058 / 1063
+ProtectAI,ROT13 + wrapper,100.0,100.0,0.47,1063 / 1063
+ProtectAI,ROT13,95.3,68.8,0.772,1015 / 1063
+ProtectAI,Pig Latin,99.8,71.9,0.903,1061 / 1063
+ProtectAI,Zulu,98.2,64.6,0.839,1045 / 1063
+PG2-22M,Original,45.4,7.0,0.862,–
+PG2-22M,Base64 + wrapper,0.0,0.0,0.556,0 / 693
+PG2-22M,Base64,0.0,0.0,0.617,0 / 693
+PG2-22M,ROT13 + wrapper,0.0,0.1,0.738,1 / 693
+PG2-22M,ROT13,0.0,0.1,0.757,1 / 693
+PG2-22M,Pig Latin,4.7,2.6,0.74,71 / 693
+PG2-22M,Zulu,33.4,9.1,0.775,459 / 693
+PG2-86M,Original,97.2,40.0,0.927,–
+PG2-86M,Base64 + wrapper,0.0,0.0,0.714,0 / 1210
+PG2-86M,Base64,0.0,0.0,0.731,0 / 1210
+PG2-86M,ROT13 + wrapper,24.5,9.6,0.708,195 / 1210
+PG2-86M,ROT13,14.1,4.7,0.76,82 / 1210
+PG2-86M,Pig Latin,97.0,75.4,0.818,1174 / 1210
+PG2-86M,Zulu,90.8,34.8,0.871,1096 / 1210
+PIGuard,Original,92.0,14.6,0.944,–
+PIGuard,Base64 + wrapper,100.0,100.0,0.539,1214 / 1214
+PIGuard,Base64,100.0,99.9,0.489,1214 / 1214
+PIGuard,ROT13 + wrapper,100.0,99.7,0.517,1214 / 1214
+PIGuard,ROT13,100.0,98.3,0.558,1214 / 1214
+PIGuard,Pig Latin,98.3,70.4,0.873,1194 / 1214
+PIGuard,Zulu,98.3,81.8,0.78,1196 / 1214
